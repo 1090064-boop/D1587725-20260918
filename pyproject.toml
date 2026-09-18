@@ -1,0 +1,17 @@
+[project]
+name = "d1587725-20260918"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "0911-2026", email = "1090064@st.cjshs.tn.edu.tw" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+d1587725-20260918 = "d1587725_20260918:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
